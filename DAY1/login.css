@@ -1,37 +1,35 @@
-.log
-{
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.log {
     display: flex;
-    flex-direction: row;
-    border: 100px;
-    border:2px solid;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-inline-end: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-#pag
-{
-    border: 100px;
-    background-color:white;
-    padding-top: 200px;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    width: 500px; 
-    text-align: center;
-    padding-bottom: 100px;
-    padding-top:100px;
+
+#img img {
+    max-width: 100%;
+    height: auto;
 }
-#pas
-{
-    text-align: center;
+
+#pag {
   
+    background-color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 4px;
+    margin-left: 20px;
 }
-#but
-{
-    padding: 5px;
+
+form {
+    text-align: center;
 }
-#img
-{
-    
-   padding: 50px;
-}
+
+
+
+
