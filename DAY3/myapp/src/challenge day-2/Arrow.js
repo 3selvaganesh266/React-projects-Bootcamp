@@ -1,5 +1,5 @@
 import React from 'react';
-const ArrowFunction = () => {
+const Arrow = () => {
     return(
         <div>
             <h1>compayname</h1>
@@ -8,4 +8,4 @@ const ArrowFunction = () => {
     )
 }
 
-export default ArrowFunction;
+export default Arrow;
